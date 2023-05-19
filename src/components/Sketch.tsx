@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Image, GridItem } from '@chakra-ui/react'
+import { Text, Image, GridItem } from '@chakra-ui/react'
 
 interface SketchProps {
     src: string;
@@ -26,9 +26,9 @@ const Sketch: React.FC<SketchProps> = ({ src, alt, title }) => {
     >
       <Image src={src} alt={alt} />
       {isHovered && (
-        <div className="absolute bottom-0 left-0 right-0 bg-gray-800 bg-opacity-75 text-white py-2 px-4 text-center">
-          {title}
-        </div>
+        <Text className="absolute top-0 left-0 h-full w-full bg-gray-800 bg-opacity-75 text-white text-center" fontFamily='avenir' fontWeight='medium'>
+          {title.toLowerCase()}
+        </Text>
       )}
     </GridItem>
   );
