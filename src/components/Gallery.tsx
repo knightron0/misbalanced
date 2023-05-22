@@ -68,7 +68,7 @@ const sketchList = [
 const Gallery: React.FC = () => {
   return (
     <>
-      <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', xl: 'repeat(3, 1fr)' }} gap={6} p={20}>
+      <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', xl: 'repeat(3, 1fr)' }} gap={6} pr={20} pl={20}>
         {sketchList.map(sketch => (
           <Sketch alt={sketch.alt} title={sketch.title} src={sketch.src}></Sketch>
         ))}
