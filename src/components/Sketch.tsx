@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, Image, GridItem } from '@chakra-ui/react'
+import { Text, Image, GridItem, Flex } from '@chakra-ui/react'
 
 interface SketchProps {
     src: string;
@@ -25,11 +25,11 @@ const Sketch: React.FC<SketchProps> = ({ src, alt, title }) => {
       onMouseLeave={handleMouseLeave}
     >
       <Image src={src} alt={alt} />
-      {isHovered && (
-        <Text className="absolute top-0 left-0 h-full w-full bg-gray-800 bg-opacity-75 text-white text-center" fontFamily='avenir' fontWeight='medium'>
+      <Flex className="absolute top-0 left-0 h-full w-full bg-gray-800 bg-opacity-70 transition ease-in-out opacity-0 hover:opacity-1 duration-100" justifyContent='center' alignItems='center'>
+        <Text fontFamily='avenir' fontWeight='medium'>
           {title.toLowerCase()}
         </Text>
-      )}
+      </Flex>
     </GridItem>
   );
 };

@@ -9,7 +9,13 @@
 }
 
 body {
-  background: '#000000';
+  background-color: '#000000';
   scroll-behavior: smooth;
   font-family: "Antonio", sans-serif;
+  /* overflow-y: scroll; */
+  overscroll-behavior-y: none;
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }

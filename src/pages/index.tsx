@@ -16,12 +16,12 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>misbalance</title>
+        <title>misbalanced</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="min-h-screen bg-[#000000] overflow-y-hidden overscroll-none text-center">
-        <Text fontSize='5xl' color='white' alignSelf='center' margin={10} marginBottom={0} textColor={'gray.300'} userSelect='none' className={oswald.className}>misbalance</Text>
-        <Text fontSize='md' alignSelf='center' margin={10} marginTop={3} marginBottom={7} textColor={'gray.500'} userSelect='none' fontFamily='avenir' fontWeight='bold'>generative sketches by sarthak</Text>
+        <Text fontSize={{ base: '2xl', md: '3xl', lg: '4xl', xl: '5xl'}} color='white' alignSelf='center' margin={10} marginBottom={0} textColor={'gray.300'} userSelect='none' className={oswald.className}>misbalanced</Text>
+        <Text fontSize={{ base: 'xs', md: 'sm', xl: 'md'}}  alignSelf='center' margin={10} marginTop={3} marginBottom={7} textColor={'gray.500'} userSelect='none' fontFamily='avenir' fontWeight='bold'>generative sketches by sarthak</Text>
         <Box marginLeft={10} marginRight={10} marginBottom={10}>
           <Divider borderColor={'gray.600'} />
         </Box>
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
             <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
           </Link>
           <Link href='https://sarthakmangla.com/'>
-            <FontAwesomeIcon icon={faGlobe}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faGlobe} color={'gray.100'}></FontAwesomeIcon>
           </Link>
         </Flex>
       </main>
