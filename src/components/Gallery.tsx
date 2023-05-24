@@ -12,56 +12,6 @@ const sketchList = [
     src: 'sketches/wave.png',
     alt: 'wave',
     title: "wave"
-  },
-  {
-    src: 'sketches/wave.png',
-    alt: 'wave',
-    title: "wave"
-  },
-  {
-    src: 'sketches/wave.png',
-    alt: 'wave',
-    title: "wave"
-  },
-  {
-    src: 'sketches/wave.png',
-    alt: 'wave',
-    title: "wave"
-  },
-  {
-    src: 'sketches/wave.png',
-    alt: 'wave',
-    title: "wave"
-  },
-  {
-    src: 'sketches/grid.png',
-    alt: 'grid',
-    title: "where's waldo?"
-  },
-  {
-    src: 'sketches/wave.png',
-    alt: 'wave',
-    title: "wave"
-  },
-  {
-    src: 'sketches/wave.png',
-    alt: 'wave',
-    title: "wave"
-  },
-  {
-    src: 'sketches/wave.png',
-    alt: 'wave',
-    title: "wave"
-  },
-  {
-    src: 'sketches/wave.png',
-    alt: 'wave',
-    title: "wave"
-  },
-  {
-    src: 'sketches/wave.png',
-    alt: 'wave',
-    title: "wave"
   }
 ]
 

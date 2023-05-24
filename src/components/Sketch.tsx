@@ -20,16 +20,17 @@ const Sketch: React.FC<SketchProps> = ({ src, alt, title }) => {
 
   return (
     <GridItem
-      className="relative inline-block"
+      className="gallery-item"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <Image src={src} alt={alt} />
-      <Flex className="absolute top-0 left-0 h-full w-full bg-gray-800 bg-opacity-70 transition ease-in-out opacity-0 hover:opacity-1 duration-100" justifyContent='center' alignItems='center'>
-        <Text fontFamily='avenir' fontWeight='medium'>
-          {title.toLowerCase()}
-        </Text>
-      </Flex>
+      <div className="image">
+        <img className="image-img" src={src} alt={alt}></img>
+      </div>
+      <div className="img-overlay">
+        <div className="img-title">{title.toLowerCase()}</div>
+      </div>
+
     </GridItem>
   );
 };
