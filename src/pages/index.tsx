@@ -17,7 +17,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>misbalanced</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.png" />
       </Head>
       <main className="min-h-screen bg-[#000000] overflow-y-hidden overscroll-none text-center">
         <Text fontSize={{ base: '2xl', md: '3xl', lg: '4xl', xl: '5xl'}} color='white' alignSelf='center' margin={10} marginBottom={0} textColor={'gray.300'} userSelect='none' className={oswald.className}>misbalanced</Text>
