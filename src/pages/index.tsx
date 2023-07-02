@@ -30,10 +30,10 @@ const Home: NextPage = () => {
           <Divider borderColor={'gray.600'} />
         </Box>
         <Flex alignSelf='center' margin={10} justifyContent='center' gap={5}>
-          <Link href="https://www.instagram.com/misbalance_/">
+          <Link href="https://www.instagram.com/misbalanced_/">
             <FontAwesomeIcon icon={faInstagram} color="#989898"></FontAwesomeIcon>
           </Link>
-          <Link href="https://twitter.com/home">
+          <Link href="https://twitter.com/msarthak29">
             <FontAwesomeIcon icon={faTwitter} color="#989898"></FontAwesomeIcon>
           </Link>
           <Link href='https://sarthakmangla.com/'>

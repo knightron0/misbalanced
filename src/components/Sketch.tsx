@@ -25,7 +25,7 @@ const Sketch: React.FC<SketchProps> = ({ src, alt, title }) => {
       onMouseLeave={handleMouseLeave}
     >
       <div className="image">
-        <img className="image-img" src={src} alt={alt}></img>
+        <img className="image-img select-none" src={src} alt={alt}></img>
       </div>
       <div className="img-overlay">
         <div className="img-title">{title.toLowerCase()}</div>
