@@ -1,5 +1,5 @@
-import { Grid, GridItem } from '@chakra-ui/react';
-import React, { useState } from 'react';
+import { Grid } from '@chakra-ui/react';
+import React from 'react';
 import Sketch from './Sketch';
 
 const sketchList = [
@@ -19,8 +19,8 @@ const Gallery: React.FC = () => {
   return (
     <>
       <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', xl: 'repeat(3, 1fr)' }} gap={6} pr={20} pl={20}>
-        {sketchList.map(sketch => (
-          <Sketch alt={sketch.alt} title={sketch.title} src={sketch.src}></Sketch>
+        {sketchList.map((sketch, i) => (
+          <Sketch key={i} alt={sketch.alt} title={sketch.title} src={sketch.src}></Sketch>
         ))}
       </Grid>
     </>

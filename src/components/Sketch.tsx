@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, Image, GridItem, Flex } from '@chakra-ui/react'
+import { GridItem } from '@chakra-ui/react'
 
 interface SketchProps {
     src: string;
