@@ -12,7 +12,12 @@ const sketchList = [
     src: 'sketches/wave.png',
     alt: 'wave',
     title: "wave"
-  }
+  },
+  {
+    src: 'sketches/glass.png',
+    alt: 'stained glass',
+    title: "stained glass"
+  },
 ]
 
 const Gallery: React.FC = () => {
