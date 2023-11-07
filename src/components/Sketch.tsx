@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { GridItem } from '@chakra-ui/react'
+import { GridItem, Link } from '@chakra-ui/react'
 
 interface SketchProps {
     src: string;
     alt: string;
     title: string;
+    link: string;
   }
 
-const Sketch: React.FC<SketchProps> = ({ src, alt, title }) => {
+const Sketch: React.FC<SketchProps> = ({ src, alt, title, link }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -28,7 +29,7 @@ const Sketch: React.FC<SketchProps> = ({ src, alt, title }) => {
         <img className="image-img select-none" src={src} alt={alt}></img>
       </div>
       <div className="img-overlay">
-        <div className="img-title">{title.toLowerCase()}</div>
+        <div className="img-title">{title.toLowerCase()}</div> {link != "" && <Link href={link} color={'gray'} >(source)</Link>}
       </div>
 
     </GridItem>
