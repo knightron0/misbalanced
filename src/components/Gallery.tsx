@@ -27,6 +27,12 @@ const sketchList = [
     link: 'http://www.medienkunstnetz.de/works/schotter/',
     title: "disorder"
   },
+  {
+    src: 'sketches/socialnetwork.png',
+    alt: 'social network',
+    link: '',
+    title: "social network"
+  },
 ]
 
 const Gallery: React.FC = () => {
