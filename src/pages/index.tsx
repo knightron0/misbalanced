@@ -20,8 +20,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/icon.png" />
       </Head>
       <main className="min-h-screen bg-[#000000] overflow-y-hidden overscroll-none text-center">
-        <Text fontSize={{ base: '2xl', md: '3xl', lg: '4xl', xl: '5xl'}} color='white' alignSelf='center' margin={10} marginBottom={0} textColor={'gray.300'} userSelect='none' className={oswald.className}>misbalanced</Text>
-        <Text fontSize={{ base: 'xs', md: 'sm', xl: 'md'}}  alignSelf='center' margin={10} marginTop={3} marginBottom={7} textColor={'#B8B8B8'} userSelect='none' fontFamily='Avenir' fontWeight='medium'>generative sketches by sarthak</Text>
+        <Text fontSize={{ base: '5xl', md: '5xl', lg: '5xl', xl: '5xl'}} color='white' alignSelf='center' margin={10} marginBottom={0} textColor={'gray.300'} userSelect='none' className={oswald.className}>misbalanced</Text>
+        <Text fontSize={{ base: 'md', md: 'md', xl: 'md'}}  alignSelf='center' margin={10} marginTop={3} marginBottom={7} textColor={'#B8B8B8'} userSelect='none' fontFamily='Avenir' fontWeight='medium'>generative sketches by sarthak</Text>
         <Box marginLeft={10} marginRight={10} marginBottom={10}>
           <Divider borderColor={'gray.600'} />
         </Box>
