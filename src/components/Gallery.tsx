@@ -4,22 +4,70 @@ import Sketch from './Sketch';
 
 const sketchList = [
   {
-    src: 'sketches/grid.png',
-    alt: 'grid',
+    src: 'sketches/singapore.png',
+    alt: 'singapore',
     link: '',
-    title: "where's waldo?"
+    title: "singapore"
   },
   {
-    src: 'sketches/wave.png',
-    alt: 'wave',
+    src: 'sketches/westlafayette.png',
+    alt: 'west lafayette',
     link: '',
-    title: "wave"
+    title: "west lafayette"
   },
   {
-    src: 'sketches/glass.png',
-    alt: 'stained glass',
+    src: 'sketches/miamibeach.png',
+    alt: 'miami beach',
     link: '',
-    title: "stained glass"
+    title: "miami beach"
+  },
+  {
+    src: 'sketches/delhi.png',
+    alt: 'delhi',
+    link: '',
+    title: "delhi"
+  },
+  {
+    src: 'sketches/nyc.png',
+    alt: 'nyc',
+    link: '',
+    title: "nyc"
+  },
+  {
+    src: 'sketches/chicago.png',
+    alt: 'chicago',
+    link: '',
+    title: "chicago"
+  },
+  {
+    src: 'sketches/boston.png',
+    alt: 'boston',
+    link: '',
+    title: "boston"
+  },
+  {
+    src: 'sketches/bayarea.png',
+    alt: 'bay area',
+    link: '',
+    title: "bay area"
+  },
+  {
+    src: 'sketches/meteora.png',
+    alt: 'meteora',
+    link: '',
+    title: "meteora"
+  },
+  {
+    src: 'sketches/santorini.png',
+    alt: 'santorini',
+    link: '',
+    title: "santorini"
+  },
+  {
+    src: 'sketches/socialnetwork.png',
+    alt: 'social network',
+    link: '',
+    title: "social network"
   },
   {
     src: 'sketches/disorder.png',
@@ -28,11 +76,23 @@ const sketchList = [
     title: "disorder"
   },
   {
-    src: 'sketches/socialnetwork.png',
-    alt: 'social network',
+    src: 'sketches/glass.png',
+    alt: 'stained glass',
     link: '',
-    title: "social network"
+    title: "stained glass"
   },
+  {
+    src: 'sketches/wave.png',
+    alt: 'wave',
+    link: '',
+    title: "wave"
+  },
+  {
+    src: 'sketches/grid.png',
+    alt: 'grid',
+    link: '',
+    title: "where's waldo?"
+  }
 ]
 
 const Gallery: React.FC = () => {
